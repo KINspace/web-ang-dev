@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.page-header{
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
+    position: relative;
+}
+
+.page-header p {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: 440px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
